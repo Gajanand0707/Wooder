@@ -1,0 +1,25 @@
+.form input,.form textarea{
+    padding: 12px 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.form label{
+    margin-top: 10px;
+}
+.form{
+    padding: 30px 20px;
+}
+.Contact-form {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ab7442;
+}
+.form button{
+    border: 2px solid #fff;
+    margin: 0;
+    padding: 10px 30px;
+    color: #fff;
+}

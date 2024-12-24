@@ -1,0 +1,43 @@
+.Clientsays .Projects_text{
+margin-bottom: 60px;
+}
+.Clientsays .container{
+    max-width: 900px !important;
+}
+.client-name p{
+    font-size: 14px;
+    color: #ab7442;
+    margin: 0;
+}
+.client-bio img{
+    border-radius: 100px;
+    max-width: 80px;
+}
+.client-bio {
+    margin-bottom: 30px;
+}
+.Client{
+    background-color: #fff;
+    box-shadow: 2px 2px 15px #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin:0 10px;
+}
+.Clientsays .slick-list{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+   /* padding: 40px 0; */
+   overflow: visible !important;
+}
+.Client p{
+    font-size: 16px;
+}
+.Clientsays .slick-slide{
+    opacity: 0.5 !important;
+    transform: scale(0.8) !important;
+    transition: 0.6s all;
+}
+.Clientsays .slick-slide.slick-active.slick-center.slick-current{
+    opacity: 1 !important;
+    transform: scale(1) !important;
+}

@@ -1,0 +1,47 @@
+.Service{
+    background-color: #fafafa;
+    overflow: hidden;
+}
+.Service-item h4 {
+    position: relative;
+    display: block;
+    font-size: 22px;
+    line-height: 1.2em;
+    color: #353535;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.Service-item p{
+font-size: 16px;
+}
+.Service-item a{
+        position: relative;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #353535;
+}
+.Service-item{
+    background-color: #fff;
+        position: relative;
+        margin: 0 10px;
+        overflow: hidden;
+        padding: 10px;
+        border-radius: 5px;
+        border: 12px solid #ffffff;
+        box-shadow: 0 0 20px rgba(0,0,0,.10);
+}
+.Service .slick-list{
+overflow: visible;
+}
+.image_Service{
+    overflow: hidden;
+  
+}
+.Service-item img{
+    transition: 0.4s all;
+}
+.Service-item:hover img{
+    transform: scale(1.4);
+}

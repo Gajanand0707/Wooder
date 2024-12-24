@@ -1,0 +1,120 @@
+/* https://preview.themeforest.net/item/wooder-renovation-services-carpenter-craftsman-business-html-template-rtl/full_screen_preview/24099588?_ga=2.209849744.404175560.1734601322-2001799258.1732033746 */
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+img{
+    width: 100%;
+}
+.container{
+    max-width: 1200px !important;
+}
+body h1{
+    font-size: 72px;  
+    font-weight: 600;
+    line-height: 1em;
+    font-family: "PT Serif", serif;
+}
+
+body h2{
+    position: relative;
+    display: inline-block;
+    font-size: 72px;
+    color: #353535;
+    line-height: 1em;
+    font-weight: 600;
+    color: transparent;
+    cursor: default;
+    -webkit-text-stroke: 1px #353535;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.linesingle:after{
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: #ab7442;
+    bottom: 5px; right: -70px;
+    position: absolute;
+}
+.towlines::before{
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: #ab7442;
+    bottom: 5px; left:  -70px;
+    position: absolute;
+}
+body p{
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.sub-title::after{
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: #ab7442;
+    top: 13px; right: -50px;
+    position: absolute;
+}
+.sub-title::before{
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: #ab7442;
+    top: 13px; left: -50px;
+    position: absolute;
+}
+.Button {
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    padding: 11px 40px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #ab7442;
+    overflow: hidden;
+    border: none;
+}
+.navbtn{
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ab7442;
+    padding: 11px 30px 9px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 3px solid #ab7442;
+    overflow: hidden;
+    background-color: transparent;
+    margin-left: 20px;
+    transition: 0.5s all;
+
+}
+.body-text{
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: 400;
+    color: #353535;
+}
+section{
+    padding: 100px 16px;
+    overflow: hidden;
+}
+#loom-companion-mv3{
+    display: none;
+}
+
+@media  (max-width:768px) {
+    body h1{
+        font-size: 40px;  
+    }
+body h2{
+    font-size: 35px;
+}
+section{
+    padding: 50px 16px;
+}
+}

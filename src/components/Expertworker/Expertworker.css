@@ -1,0 +1,38 @@
+.team-text p{
+    font-size: 14px ;
+}
+.team-text h4{
+    border-bottom: 1px solid #ab7442;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.team-text{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #ccc;
+    margin-top: -50px !important;
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.social-media-icon{
+    height: 0 ;
+    transition: 0.2s all;
+    overflow: hidden;
+}
+.Expertworker .Projects_text{
+    margin-bottom: 60px;
+}
+.team-member:hover .social-media-icon{
+    height: 20px;
+}
+
+@media (max-width:768px) {
+    .team-member{
+        margin-bottom: 30px;
+    }
+}

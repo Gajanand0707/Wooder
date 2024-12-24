@@ -1,0 +1,30 @@
+.Banner{
+    overflow: hidden;
+}
+.slider-item-text{
+    background-image: url(../../assests/images/slider-image-01.jpg);
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+.slider-text{
+    z-index: 3;
+}
+.slider-item-text::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: .80;
+}
+.slider-text{
+    max-width: 780px;
+  }
+  @media  (max-width:768px) {
+    .slider-text {
+        padding: 0 20px;
+    }
+  }
